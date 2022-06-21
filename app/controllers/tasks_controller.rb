@@ -10,6 +10,11 @@ class TasksController < ApplicationController
   # GET /tasks/1
   def show
   end
+  
+  def search
+    index
+    render :index
+  end
 
   # GET /tasks/new
   def new
